@@ -18,7 +18,9 @@ export default function Register() {
             if(password.current.value==rePassword.current.value){
                 const user = {name:username.current.value, email:email.current.value,password:password.current.value}
                 try{
+                    console.log("ayoub")
                     await axios.post("http://localhost:5000/api/user/register",user);
+
                     navigate("/login");
                 }catch(err){
                     console.log(err);
