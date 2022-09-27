@@ -19,6 +19,7 @@
     "embla-carousel-autoplay": "^7.0.3",
     "framer-motion": "^7.0.0",
     "mui-tel-input": "^1.4.1",
+    "parse": "^3.4.4",
     "react": "^18.0.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.0.0",

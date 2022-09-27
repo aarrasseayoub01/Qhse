@@ -24,6 +24,9 @@ import Test from "./screens/Test"
 import Zone from "./screens/Zone/Zone"
 import { Equipements } from "./screens/Equipements/Equipements"
 import ErrorPage from "./screens/ErrorPage"
+
+
+
 export default function App() {
 
   const {user, org} = useContext(AuthContext);
