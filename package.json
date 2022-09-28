@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "googleapis": "^105.0.0",
-    "parse": "^3.4.4"
-  }
-}
